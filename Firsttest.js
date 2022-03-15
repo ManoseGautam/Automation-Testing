@@ -3,7 +3,7 @@ var webdriver = require('selenium-webdriver');
 //require("geckodriver");
 const assert = require("assert");
 
-const {Builder,By,Key,util,Element_enter} = require('selenium-webdriver');
+const {Builder,By,Key,util} = require('selenium-webdriver');
 let driver =  new webdriver.Builder().forBrowser("firefox").build();
 it('title' , async function(){
 
